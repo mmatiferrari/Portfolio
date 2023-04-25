@@ -1,7 +1,7 @@
 import React from 'react'
 import ContactForm from './Form'
 import StarRating from './components/Stars.jsx'
-import {
+import { 
   Wrap,
   Box,
   Grid,
