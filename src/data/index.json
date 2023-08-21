@@ -2,51 +2,61 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/product-chain-1.png",
-      "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "src": "./img/feather-pen-1.png",
+      "title": "Lenguajes",
+      "description": "Javascript, c# y c++."
     },
     {
       "id": "2",
-      "src": "./img/tag-1.png",
-      "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "HTML, CSS, React, React Native, Next, Redux, Redux Toolkit, Google Cloud, Firebase, Auth0, Mercado Pago, Stripe, Paypal, Figma, Bootstrap, Tailwind, Material UI, Chakra UI, Ant Design."
     },
     {
       "id": "3",
-      "src": "./img/feather-pen-2.png",
-      "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "Node.js, MySQL, Express, MongoDB, Postman."
     },
     {
       "id": "4",
-      "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "src": "./img/juego-de-ordenador.png",
+      "title": "Game Development",
+      "description": "Unity, Unreal Engine 5, GameMaker Studio 2, Blender, ZBrush, Procreate."
     }
   ],
   "portfolio": [
     {
       "id": "1",
       "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "title": "Trueka",
+      "description": "App para intercambio de productos, trabaja con geolocalizacion y seguimiento de usuario para traer los productos mas cercanos y atractivos.",
+      "link": "https://github.com/mmatiferrari/s9-12-t-nest-react",
+      "deploy": "https://trueka-app-front-c6dsm.ondigitalocean.app/"
     },
     {
       "id": "2",
       "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "title": "Sunkiss",
+      "description": "E-Commerce website, totalmente responsive, construido con Next, utiliza Stripe como pasarela de pago.",
+      "link": "https://github.com/mmatiferrari/c11-35-m-next-",
+      "deploy": "https://c11-35-m-next.vercel.app/"
     },
     {
       "id": "3",
       "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "title": "PadelApp",
+      "description": "Aplicacion para alquileres de complejos deportivos, maneja turnos por calendario, stock, utiliza Paypal y registro por Auth0.",
+      "link": "https://github.com/mmatiferrari/henry-pf-frontend"
+    },
+    {
+      "id": "4",
+      "src": "./img/placeholder-image-4.png",
+      "title": "FootApp",
+      "description": "App de dietas, valores nutricionales, construida con React y Redux. ",
+      "link": "https://github.com/mmatiferrari/FoodSarch"
     }
+    
   ],
   "testimonial": [
     {

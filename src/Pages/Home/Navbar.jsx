@@ -34,8 +34,11 @@ function Navbar() {
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
-      <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
+      <div className="logo-name-container">
+        <div className="logo-container">
+          <img className="logo-container" src="./img/logo.png" alt="Logo" />
+        </div>
+        <p className="section--title">Ferrari Matias</p>
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -58,21 +61,7 @@ function Navbar() {
               to="heroSection"
               className="navbar--content"
             >
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="MyPortfolio"
-              className="navbar--content"
-            >
-              Portfolio
+              Inicio
             </Link>
           </li>
           <li>
@@ -86,7 +75,7 @@ function Navbar() {
               to="AboutMe"
               className="navbar--content"
             >
-              About Me
+              Sobre mi
             </Link>
           </li>
           <li>
@@ -97,10 +86,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="testimonial"
+              to="MyPortfolio"
               className="navbar--content"
             >
-              Testimonials
+              Portafolio
             </Link>
           </li>
         </ul>
@@ -115,7 +104,7 @@ function Navbar() {
         to="Contact"
         className="btn btn-outline-primary"
       >
-        Contact Me
+        Contactame
       </Link>
     </nav>
   );
